@@ -1,15 +1,15 @@
 export const heroContent = {
-  line1: "Pixel Perfectionist",
-  line2Prefix: "Turning",
-  line2Emphasis: "Dreams",
-  line2Suffix: "Into",
-  line3: "Digital Magic",
+  line1: "Nexora Lab",
+  line2Prefix: "Where",
+  line2Emphasis: "Aura",
+  line2Suffix: "Meets",
+  line3: "Next-Gen Tech",
 };
 
 export const aboutDescription =
-  "Lavanya Yasmeen is a pixel perfectionist graphic designer, renowned for transforming dreams into digital magic. Based in Indonesia, she crafts visually stunning designs that captivate audiences worldwide.";
+  "Nexora Lab (枢光) is a next-generation tech studio dedicated to exploring intelligent systems, futuristic digital tools, and creative engineering.";
 
 export const personImage = {
-  src: "/person2.jpg",
-  alt: "Photo by Cherry Ann Gonzales: https://www.pexels.com/photo/colorful-portrait-of-woman-with-sunglasses-and-balls-33819483/",
+  src: "/avatar.png",
+  alt: "Nexora Lab (枢光) Avatar",
 };

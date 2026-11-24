@@ -32,26 +32,26 @@ const gilroy = localFont({
   display: 'swap',
 });
 export const metadata: Metadata = {
-  title: "Lavanya Yasmeen | Personal Portfolio",
-  description: "A modern and minimalist portfolio showcasing my work, skills, and experiences in web development and design.",
-  keywords: ["portfolio", "web development", "design", "projects", "skills"],
-  authors: [{ name: "Wafastarz (Muhammad Khoirul Wafa)" }],
-  creator: "Wafastarz (Muhammad Khoirul Wafa)",
-  publisher: "Wafastarz (Muhammad Khoirul Wafa)",
+  title: "Nexora Lab (枢光) | Next-Gen Tech Studio",
+  description: "Nexora Lab (枢光) is a next-generation tech studio exploring intelligent systems, futuristic digital tools, and creative engineering.",
+  keywords: ["Nexora", "Nexora Lab", "枢光", "portfolio", "tech studio", "AI", "web development"],
+  authors: [{ name: "Nexora Lab" }],
+  creator: "Nexora Lab",
+  publisher: "Nexora Lab",
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
     type: "website",
-    title: "Lavanya Yasmeen | Personal Portfolio",
-    description: "A modern and minimalist portfolio showcasing my work, skills, and experiences in web development and design.",
-    siteName: "Lavanya Yasmeen",
+    title: "Nexora Lab (枢光) | Next-Gen Tech Studio",
+    description: "Nexora Lab (枢光) is a next-generation tech studio exploring intelligent systems, futuristic digital tools, and creative engineering.",
+    siteName: "Nexora Lab",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lavanya Yasmeen | Personal Portfolio",
-    description: "A modern and minimalist portfolio showcasing my work, skills, and experiences in web development and design.",
+    title: "Nexora Lab (枢光) | Next-Gen Tech Studio",
+    description: "Nexora Lab (枢光) is a next-generation tech studio exploring intelligent systems, futuristic digital tools, and creative engineering.",
   },
 };
 export default function RootLayout({

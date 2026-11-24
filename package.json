@@ -1,6 +1,6 @@
 {
-  "name": "bentofolio",
-  "version": "0.1.0",
+  "name": "nexora",
+  "version": "1.0.0",
   "description": "A modern, customizable portfolio template built with Next.js and TailwindCSS",
   "private": false,
   "author": {
