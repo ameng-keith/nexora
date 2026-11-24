@@ -35,7 +35,7 @@ export default function HeroSection() {
         animate="visible"
       >
         <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-[1]">{heroContent.line1}</h1>
-        <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-[1]">{heroContent.line2Prefix} <span className="italic font-light">{heroContent.line2Emphasis}</span>{heroContent.line2Suffix}</h1>
+        <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-[1]">{heroContent.line2Prefix} <span className="italic font-light">{heroContent.line2Emphasis}</span>{" "}{heroContent.line2Suffix}</h1>
         <h1 className="text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-[1]">{heroContent.line3}</h1>
       </motion.div>
     </motion.div>

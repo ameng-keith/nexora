@@ -12,11 +12,10 @@ export default function Navbar() {
       <nav className="flex flex-row justify-between px-4 py-4 lg:px-10 lg:py-6 items-center md:flex-row md:items-center relative" aria-label="Main navigation">
         <Link
           href="/"
-          className="flex flex-row gap-1 items-center"
+          className="flex flex-row gap-2 items-center"
           aria-label="Go to homepage"
         >
-          <span className="text-xl lg:text-2xl uppercase font-light italic">Nexora</span>
-          <span className="text-xl lg:text-2xl uppercase font-medium">Lab</span>
+          <span className="text-xl lg:text-2xl uppercase font-bold tracking-wide">Nexora Lab</span>
         </Link>
         <HamburgerButton open={menuOpen} onClick={toggleMenu} />
         <ul className="hidden md:flex flex-row gap-20 list-none m-0 items-center">
