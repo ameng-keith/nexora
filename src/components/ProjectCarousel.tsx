@@ -160,21 +160,22 @@ export default function ProjectCarousel() {
                 scale,
                 opacity,
                 rotateY,
+                translateZ: isCenter ? 100 : -50 * absOffset,
               }}
               transition={{
                 type: "spring",
-                stiffness: 280,
-                damping: 28,
+                stiffness: 350,
+                damping: 35,
               }}
               onClick={() => setActiveIndex(index)}
               whileHover={isCenter ? { scale: 1.08 } : { opacity: 0.95 }}
             >
               {/* Card Container with Sci-Fi border */}
               <div 
-                className={`w-full h-full relative rounded-[24px] overflow-hidden transition-all duration-300 ${
+                className={`w-full h-full relative rounded-[24px] overflow-hidden transition-all duration-300 group/card ${
                   isCenter
-                    ? "ring-2 ring-amber-400 shadow-[0_0_50px_rgba(245,158,11,0.3)]"
-                    : "ring-1 ring-white/10 hover:ring-white/20"
+                    ? "ring-1 ring-amber-400/50 shadow-[0_20px_80px_rgba(245,158,11,0.25)]"
+                    : "ring-1 ring-white/10 grayscale-[0.4] hover:grayscale-0"
                 }`}
               >
                 <Image
@@ -182,12 +183,12 @@ export default function ProjectCarousel() {
                   alt={project.name}
                   fill
                   sizes="(max-width: 768px) 220px, 360px"
-                  className="object-cover"
+                  className="object-cover transition-transform duration-700 group-hover/card:scale-110"
                   priority={isCenter}
                 />
 
-                {/* Dark gradient overlay for text readability */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
+                {/* 玻璃拟态叠加层 */}
+                <div className={`absolute inset-0 transition-opacity duration-500 ${isCenter ? 'bg-gradient-to-t from-black/90 via-transparent to-transparent' : 'bg-black/40'}`} />
 
                 {/* Card Title & Meta at bottom of each card */}
                 <div className="absolute bottom-0 left-0 right-0 p-5 flex flex-col justify-end">
